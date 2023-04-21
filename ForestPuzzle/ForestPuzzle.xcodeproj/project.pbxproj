@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		09CF636229F29C77007409B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF636129F29C77007409B0 /* AppDelegate.swift */; };
-		09CF636429F29C77007409B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF636329F29C77007409B0 /* SceneDelegate.swift */; };
-		09CF636629F29C77007409B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF636529F29C77007409B0 /* ViewController.swift */; };
-		09CF636929F29C77007409B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CF636729F29C77007409B0 /* Main.storyboard */; };
-		09CF636B29F29C79007409B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CF636A29F29C79007409B0 /* Assets.xcassets */; };
 		09CF636E29F29C79007409B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09CF636C29F29C79007409B0 /* LaunchScreen.storyboard */; };
+		09CF637629F2DFC2007409B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09CF637529F2DFC2007409B0 /* Assets.xcassets */; };
+		09CF637929F2EFF3007409B0 /* MeriendaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09CF637829F2EFF3007409B0 /* MeriendaOne-Regular.ttf */; };
+		09CF637C29F2F433007409B0 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF637B29F2F433007409B0 /* AppCoordinator.swift */; };
+		09CF637F29F2F56F007409B0 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF637E29F2F56E007409B0 /* CoordinatorProtocol.swift */; };
+		09CF638229F2F6E5007409B0 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF638129F2F6E5007409B0 /* MenuViewController.swift */; };
+		09CF638529F3008D007409B0 /* backMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09CF638429F3008D007409B0 /* backMusic.mp3 */; };
+		09CF638829F31469007409B0 /* AchivementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF638729F31469007409B0 /* AchivementsViewController.swift */; };
+		09CF638A29F31476007409B0 /* LevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF638929F31476007409B0 /* LevelViewController.swift */; };
+		09CF638C29F31481007409B0 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF638B29F31481007409B0 /* PlayViewController.swift */; };
+		09CF638E29F3148F007409B0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CF638D29F3148F007409B0 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		09CF635E29F29C77007409B0 /* ForestPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForestPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09CF636129F29C77007409B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09CF636329F29C77007409B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		09CF636529F29C77007409B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		09CF636829F29C77007409B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		09CF636A29F29C79007409B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09CF636D29F29C79007409B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09CF636F29F29C79007409B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09CF637529F2DFC2007409B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09CF637829F2EFF3007409B0 /* MeriendaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MeriendaOne-Regular.ttf"; sourceTree = "<group>"; };
+		09CF637B29F2F433007409B0 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		09CF637E29F2F56E007409B0 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		09CF638129F2F6E5007409B0 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		09CF638429F3008D007409B0 /* backMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backMusic.mp3; sourceTree = "<group>"; };
+		09CF638729F31469007409B0 /* AchivementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchivementsViewController.swift; sourceTree = "<group>"; };
+		09CF638929F31476007409B0 /* LevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelViewController.swift; sourceTree = "<group>"; };
+		09CF638B29F31481007409B0 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		09CF638D29F3148F007409B0 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,69 @@
 		09CF636029F29C77007409B0 /* ForestPuzzle */ = {
 			isa = PBXGroup;
 			children = (
+				09CF638629F30E5A007409B0 /* Extensions */,
 				09CF636129F29C77007409B0 /* AppDelegate.swift */,
-				09CF636329F29C77007409B0 /* SceneDelegate.swift */,
-				09CF636529F29C77007409B0 /* ViewController.swift */,
-				09CF636729F29C77007409B0 /* Main.storyboard */,
-				09CF636A29F29C79007409B0 /* Assets.xcassets */,
+				09CF638329F3007C007409B0 /* Music */,
+				09CF637A29F2F420007409B0 /* Coordinator */,
+				09CF637729F2EFE3007409B0 /* Font */,
+				09CF638029F2F5CE007409B0 /* Views */,
 				09CF636C29F29C79007409B0 /* LaunchScreen.storyboard */,
+				09CF637529F2DFC2007409B0 /* Assets.xcassets */,
 				09CF636F29F29C79007409B0 /* Info.plist */,
 			);
 			path = ForestPuzzle;
+			sourceTree = "<group>";
+		};
+		09CF637729F2EFE3007409B0 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				09CF637829F2EFF3007409B0 /* MeriendaOne-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		09CF637A29F2F420007409B0 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				09CF637D29F2F56E007409B0 /* Protocol */,
+				09CF637B29F2F433007409B0 /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		09CF637D29F2F56E007409B0 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				09CF637E29F2F56E007409B0 /* CoordinatorProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		09CF638029F2F5CE007409B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				09CF638129F2F6E5007409B0 /* MenuViewController.swift */,
+				09CF638729F31469007409B0 /* AchivementsViewController.swift */,
+				09CF638929F31476007409B0 /* LevelViewController.swift */,
+				09CF638B29F31481007409B0 /* PlayViewController.swift */,
+				09CF638D29F3148F007409B0 /* SettingsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		09CF638329F3007C007409B0 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				09CF638429F3008D007409B0 /* backMusic.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		09CF638629F30E5A007409B0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +192,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				09CF636E29F29C79007409B0 /* LaunchScreen.storyboard in Resources */,
-				09CF636B29F29C79007409B0 /* Assets.xcassets in Resources */,
-				09CF636929F29C77007409B0 /* Main.storyboard in Resources */,
+				09CF638529F3008D007409B0 /* backMusic.mp3 in Resources */,
+				09CF637929F2EFF3007409B0 /* MeriendaOne-Regular.ttf in Resources */,
+				09CF637629F2DFC2007409B0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +205,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09CF636629F29C77007409B0 /* ViewController.swift in Sources */,
+				09CF637C29F2F433007409B0 /* AppCoordinator.swift in Sources */,
+				09CF637F29F2F56F007409B0 /* CoordinatorProtocol.swift in Sources */,
 				09CF636229F29C77007409B0 /* AppDelegate.swift in Sources */,
-				09CF636429F29C77007409B0 /* SceneDelegate.swift in Sources */,
+				09CF638A29F31476007409B0 /* LevelViewController.swift in Sources */,
+				09CF638829F31469007409B0 /* AchivementsViewController.swift in Sources */,
+				09CF638C29F31481007409B0 /* PlayViewController.swift in Sources */,
+				09CF638229F2F6E5007409B0 /* MenuViewController.swift in Sources */,
+				09CF638E29F3148F007409B0 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		09CF636729F29C77007409B0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09CF636829F29C77007409B0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		09CF636C29F29C79007409B0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -170,6 +234,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_WARNINGS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -216,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -230,6 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_WARNINGS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -270,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,9 +358,8 @@
 				INFOPLIST_FILE = ForestPuzzle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +367,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = anton.mishkevich.ForestPuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -320,9 +388,8 @@
 				INFOPLIST_FILE = ForestPuzzle/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +397,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = anton.mishkevich.ForestPuzzle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
